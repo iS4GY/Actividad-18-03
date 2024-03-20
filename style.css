@@ -64,4 +64,9 @@ img:hover{
 *{
     padding: 0%;
     margin: 0;
+
+}
+
+#contenedor{
+    display: flex;
 }
