@@ -1,0 +1,38 @@
+body{
+    background-color:blueviolet;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1,h3{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    list-style: none;
+}
+.center{
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+    border: 3px solid red;
+    padding: 20px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border: 3px solid red;
+    border-radius: 50%;
+    opacity: 95%;
+    transition: height 2s, width 2s, opacity 2s, border-color 2s;
+}
+img:hover{
+    width: 400px;
+    height: 300px;
+    border-color: black;
+    opacity: 90%;
+}
+
+a{
+    color: black;
+}
